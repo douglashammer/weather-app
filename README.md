@@ -5,6 +5,7 @@ assignment from [The Odin Project](https://www.theodinproject.com/paths/full-sta
 [Live Preview]()
 
 ![Screenshot of Project](weather-app-pic2.png)
+![Screenshot of Project](weather-app-pic1.png)
 
 ## Technologies/Tools
 Project is created with:
