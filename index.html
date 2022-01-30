@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=\, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div id="main-container">
+			<div class="search-container">
+				<form class="search-form">
+					<input id="search-input" type="text" placeholder="Search for a city">
+					<button id="search-btn"><img src="search-icon.png"></button>
+				</form>
+
+				<div class="switch-button">
+					<input class="switch-button-checkbox" type="checkbox"></input>
+					<label class="switch-button-label" for=""><span class="switch-button-label-span">°F</span></label>
+				</div>
+			</div>
+
+      <div class="card-container">
+				<h1 id="city">City</h2>
+      	<p id="conditions">Conditions</p>
+        <img id="weather-img" src="http://openweathermap.org/img/wn/10d@2x.png">
+				<div class="temp-container">
+					<h1 id="temp-f">Temp</h1>
+					<h1 id="temp-c">Temp</h1>  
+					<div class="line-divider">
+						<div class="hi-temps">
+							<p class="temp-label">High: </p>
+							<p id="hi-temp-f"></p>
+							<p id="hi-temp-c"></p>
+						</div>
+						<div class="low-temps">
+							<p class="temp-label">Low: </p>
+							<p id="low-temp-f"></p> 
+							<p id="low-temp-c"></p> 
+						</div>
+					</div>
+				</div>
+      </div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
